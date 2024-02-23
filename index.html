@@ -5,19 +5,62 @@
         <meta name="author" content="Vsevolod Ivanov">
         <meta name="description" content="Качалка в твоем компьютере">
         <link rel="icon" href="Images/main-icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="Styles/main.css" type="text/css">
+        <link rel="stylesheet" href="Styles/slider.css" type="text/css">
         
         <title>WebGYM</title>  
         
-        <nav align = "center"><a href="Pages/page1.html">Page 1</a> | <a href="Pages/page2.html">Page 2</a> | <a href="Pages/page3.html">Page 3</a> </nav>
+        <!--p><nav align = "center"><a href="Pages/page1.html">Page 1</a> | <a href="Pages/page2.html">Page 2</a> | <a href="Pages/page3.html">Page 3</a> </nav></p-->
     </head>
 
     <body>
-        <h1 align = "center"> Welcome to your WebGYM</h1> 
+        
+        <header align = "center">
+            <ul>
+                <li><a href="Pages/page1.html">Page 1</a></li>
+                <li><a href="Pages/page2.html">Page 2</a></li>
+                <li><a href="Pages/page3.html">Page 3</a></li>
+            </ul>
+        </header>
         <hr>
-        <h2 align = "center">Welcome to your mini WebGYM</h2>
-        <img src ="Images/GYM1.jpg" align = "middle" width="500px" height="250px" hspace = "50px" vspace = "50px">
+        <h1 align = "center"> Welcome to your WebGYM</h1>
+        
+       
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                        <input type="radio" name="slider" id="switch4">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article><img src="Images/GYM1.jpg"></article>
+                                <article><img src="Images/GYM2.jpg"></article>
+                                <article><img src="Images/GYM3.jpg"></article>
+                                <article><img src="Images/GYM4.jpg"></article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+    
+                    </div>
+                    <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+    
+                    </div>
+                </article>
+        </div>
         <p align = "center">Some text about us</p>
+       
     </body>
    
 </html>
