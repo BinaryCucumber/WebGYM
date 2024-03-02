@@ -4,15 +4,18 @@ header{
 
 ul{
     list-style: none;
-    margin:0;
+    margin-top: 20px;
     padding: 0%;
 }
 
 a{
-    font-size: 40px;
-    padding: 20px;
-    color:rgb(137, 137, 155);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 25px;
+    margin-top: 50px;
+    color:rgb(5, 5, 7);
     text-decoration: none;
+    
 }
 
 a:hover{
@@ -27,3 +30,23 @@ h1{
     font-family: 'Arial', 'Verdana', sans-serif;
 }
 
+@media screen  {
+    .float {
+      float: right;
+    }
+    .main {
+        float: left;
+    }
+}
+
+body {
+    background-image:none;
+    background-size: cover;
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    text-indent: 25px;
+}
